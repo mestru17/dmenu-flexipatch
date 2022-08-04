@@ -11,7 +11,7 @@
  * is to have dmenu appear on top of the bar when using said patch in dwm.
  * https://github.com/bakkeby/patches/wiki/barpadding
  */
-#define BARPADDING_PATCH 0
+#define BARPADDING_PATCH 1
 
 /* This patch adds a border around the dmenu window. It is intended to be used with the center
  * or xyw patches, to make the menu stand out from similarly coloured windows.
@@ -88,7 +88,7 @@
  * The fuzzy highlight patch takes precedence over this patch.
  * https://tools.suckless.org/dmenu/patches/highlight/
  */
-#define HIGHLIGHT_PATCH 0
+#define HIGHLIGHT_PATCH 1
 
 /* This will automatically sort the search result so that high priority items are shown first.
  * https://tools.suckless.org/dmenu/patches/highpriority/
@@ -348,4 +348,4 @@
  * The center patch takes precedence over the XYW patch if enabled.
  * https://tools.suckless.org/dmenu/patches/xyw/
  */
-#define XYW_PATCH 0
+#define XYW_PATCH 1
